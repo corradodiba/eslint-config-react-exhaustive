@@ -1,0 +1,50 @@
+{
+  "name": "eslint-config-react-exhaustive",
+  "version": "1.0.0",
+  "description": "My ESLint, Prettier, TypeScript configuration for React Apps.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "templates": "templates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corradodiba/eslint-config-react-exhaustive.git"
+  },
+  "keywords": [
+    "react",
+    "prettier",
+    "typescript",
+    "eslint",
+    "config"
+  ],
+  "author": "Corrado Dibattista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corradodiba/eslint-config-react-exhaustive/issues"
+  },
+  "homepage": "https://github.com/corradodiba/eslint-config-react-exhaustive#readme",
+  "scripts": {
+    "test": "eslint -c ./index.js"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.2",
+    "eslint-plugin-react-prefer-function-component": "^0.0.7",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": ">=4"
+  }
+}
